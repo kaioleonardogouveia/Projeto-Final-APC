@@ -5,14 +5,13 @@ Nome: Kaio Leonardo Gouveia da Silva.
 Matrícula: 252014368.
 ********************************************
 
-**************************************************************************************************************************
 Apresentação
 
 O programa implementa um simulador básico de caixa de supermercado, permitindo que o usuário adicione produtos a uma lista de compras
 e, ao final, exiba um cupom fiscal detalhado com o total a pagar.
 **************************************************************************************************************************
 
-Funcionalidades **************************************************************************************************************************
+Funcionalidades
 
 O projeto se concentra em simular o processo de compra e emissão de comprovante fiscal.
 
@@ -21,8 +20,9 @@ Gerenciamento de Produtos (Estoque Fixo)
 Mantém um estoque fixo (estoque[]) de produtos pré-definidos, cada um com um código, nome e preço.
 
 Estruturas de Dados: Utiliza a struct produto para definir cada item no estoque.
+**************************************************************************************************************************
 
-Shutterstock **************************************************************************************************************************
+Shutterstock
 
 Busca de Produtos (buscar_produto)
 
@@ -57,3 +57,4 @@ Interface de Usuário (Loop Principal)
 Permite que o usuário insira continuamente códigos de produtos e quantidades.
 
 Critério de Parada: O loop é interrompido quando o usuário insere o código 0.
+**************************************************************************************************************************
