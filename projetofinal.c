@@ -48,7 +48,8 @@ produto estoque[] = {
     {1220,"Sabão em pó 500g",9.50},
     {1230,"Detergente",4.50},
     {1240,"Creme dental unidade",3.50},
-    {1250,"Sabonete unidade",2.50}
+    {1250,"Sabonete unidade",2.50},
+    {1300,"Skol Beats GT",6.50}
 };
 
 const int numero_produtos = sizeof(estoque) / sizeof(estoque[0]);
